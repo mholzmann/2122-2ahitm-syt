@@ -9,7 +9,7 @@ We will use [Git](https://git-scm.com/) to track changes on your source code.
 Use the following commit messages to make sure your assignment progress is transparent at any time:
 
 - `task X (started): short description`
-  - if you have completed less than 80 percent of this task
+  - if you have completed less than 30 percent of this task
 - `task X (unstable): short description`
   - if you have completed at least 80 percent of this task
 - `task X (stable): short description`
