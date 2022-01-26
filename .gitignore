@@ -2,3 +2,4 @@
 **/*.pptx
 **/*.js
 **/demos
+**/node_modules
