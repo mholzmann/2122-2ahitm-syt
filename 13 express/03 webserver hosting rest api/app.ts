@@ -1,6 +1,6 @@
 // for installing all dependencies once run 'npm install'
 // for starting the server run 'npm start'
-// for starting the server in watchmode run 'npm run dev'
+// for starting the server in watchmode run 'npm run server-dev'
 
 // import modules
 import express from "express";
