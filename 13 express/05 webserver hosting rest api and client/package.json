@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "server-dev": "npx rimraf *.js && npx nodemon app.ts",
+    "server-dev": "npx nodemon app.ts",
     "client-dev": "npx tsc --watch --project public",
     "prestart": "npx tsc && npx tsc --project public",
     "start": "node app.js"
@@ -13,8 +13,10 @@
     "@types/express": "^4.17.13",
     "@types/node": "^17.0.15",
     "nodemon": "^2.0.15",
-    "rimraf": "^3.0.2",
     "ts-node": "^10.5.0",
     "typescript": "^4.6.2"
+  },
+  "nodemonConfig": {
+    "ignore": [ "public", "**/*.json" ]
   }
 }
